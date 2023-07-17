@@ -1,0 +1,77 @@
+.Task-div {
+  width: 20vw;
+  height: 80%;
+  background-color: #00000012;
+  overflow: auto;
+}
+header {
+  width: 100%;
+  height: 10%;
+  background-color: #00000012;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+header input {
+  height: 75%;
+  
+}
+input,textarea,select{
+    border-radius: 5px;
+}
+.modal {
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color:#00000012;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.modal div input,select,textarea{
+    background-color: transparent;
+    margin: 10px;
+} 
+.modal div textarea{
+    width: 100px;
+    height:75px;
+    
+
+}
+.modal .close-div {
+  align-self: self-end;
+}
+.hide
+{
+    display: none;
+}
+.modal >input{
+width: fit-content;
+align-self: center;
+
+} 
+
+.Task-div ul li{
+  /* border: 1px solid ; */
+  margin-bottom: 5px;
+  word-wrap: normal;
+  overflow-wrap: break-word;
+}
+.low{
+  background-color: aqua;
+}
+.medium{
+  background-color: blue;
+}
+.high{ 
+background-color: red;
+}
+header h1 {
+  width: 85vw;
+  font-size: 20px;
+}
