@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Kanban Template</h1>
+        <input type="button" value="Add Item">
+       
+    </header>
+
+    <div class="modal hide">
+        <div class="close-div">
+            <i class="fa-solid fa-rectangle-xmark" ></i>
+        </div>
+        <div>
+            <input type="text" id="taskName" placeholder="Enter task Name">
+        </div>
+        <div>
+
+            <select type="text" id="taskPriority" placeholder="select priority">
+                <option>Low</option>
+                <option>High</option>
+                <option>Medium</option>
+
+            </select>
+        </div>
+        <div><textarea id="taskDesc" placeholder="Enter task Description"></textarea></div>
+        <input type="button" value="Add Item" />
+    </div>
+    <section>
+        <div class="Task-div">
+            <ul>
+
+            </ul>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
